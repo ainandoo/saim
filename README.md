@@ -26,7 +26,7 @@ https://github.com/ainandoo/Ebook-IT-bahasa-Indonesia
 
 https://www.w3schools.com/
 
-### Tools untul membuat website
+### Tools untuk membuat website
 
 1. Web Browser (Mozilla Firefox, Google Chrome, dll.)
 
