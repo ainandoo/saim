@@ -18,11 +18,11 @@ Terimakasih.
 
 ### Situs & Referensi membuat website
 
-1. Ebook HTML-CSS bahasa Indonesia:
+- Ebook HTML-CSS bahasa Indonesia:
 
 https://github.com/ainandoo/Ebook-IT-bahasa-Indonesia
 
-2. Website tutorial interaktif:
+- Website tutorial interaktif:
 
 https://www.w3schools.com/
 
