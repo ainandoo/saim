@@ -14,10 +14,7 @@ Terkait jadwal PTS yang berlangsung pekan ini, berikut pengumuman untuk pelajara
 8. Apabila ada pertanyaan, dapat disampaikan ke kelas atau langsung menghubungi pengajar.
 
 Sekian,
-
 Terimakasih.
-
-(Ainan)
 
 ### Situs & Referensi membuat website
 
