@@ -1,17 +1,36 @@
-* {box-sizing: border-box;}
+/* TUGAS 1: STYLING DASAR UNTUK LAYOUT */
+* {
+  box-sizing: border-box;
+}
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
 
-body {font-family: "Lucida Grande";}
+body {
+  font-family: "Lucida Grande";
+}
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
-.clear {clear: left;}
+.clear {
+  clear: left;
+}
 
 .container {
   max-width: 1170px;
@@ -19,6 +38,7 @@ a {text-decoration: none;}
   margin: 0 auto;
 }
 
+/* TUGAS 2: STYLING UNTUK HEADLINE */
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
@@ -44,16 +64,22 @@ a {text-decoration: none;}
   margin: 20px 0;
 }
 
-.btn-wrapper p {margin: 10px 0;}
+.btn-wrapper p {
+  margin: 10px 0;
+}
 
-.signup {background-color: #239b76;}
+.signup {
+  background-color: #239b76;
+}
 
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
 }
 
-.twitter {background-color: #55acee;}
+.twitter {
+  background-color: #55acee;
+}
 
 .btn {
   padding: 12px 24px;
@@ -64,15 +90,20 @@ a {text-decoration: none;}
   text-align: center;
 }
 
-.btn:hover {opacity: 1;}
+.btn:hover {
+  opacity: 1;
+}
 
-.fa {margin-right: 5px;}
+.fa {
+  margin-right: 5px;
+}
 
+/* TUGAS 3: STYLING UNTUK HEADER */
 header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
@@ -82,7 +113,9 @@ header {
   margin-top: 20px;
 }
 
-.header-left {float: left;}
+.header-left {
+  float: left;
+}
 
 .header-right {
   float: right;
@@ -98,7 +131,9 @@ header {
   transition: all 0.5s;
 }
 
-.header-right a:hover {background-color: rgba(255, 255, 255, 0.3);}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -114,14 +149,19 @@ header {
   color: #5f5d60;
 }
 
-.heading h2 {font-weight: normal;}
+.heading h2 {
+  font-weight: normal;
+}
 
+/* TUGAS 4: STYLING UNTUK KONTEN */
 .lesson {
   float: left;
   width: 25%;
 }
 
-.lesson-icon {position: relative;}
+.lesson-icon {
+  position: relative;
+}
 
 .lesson-icon p {
   position: absolute;
@@ -138,7 +178,9 @@ header {
   color: #5900b3;
 }
 
-.heading h3 {font-weight: normal;}
+.heading h3 {
+  font-weight: normal;
+}
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
@@ -159,7 +201,10 @@ header {
   box-shadow: none;
 }
 
-footer img {width: 125px;}
+/* TUGAS 5: STYLING UNTUK FOOTER */
+footer img {
+  width: 125px;
+}
 
 footer p {
   color: #5900b3;
@@ -179,41 +224,59 @@ footer {
   display: none;
 }
 
-/* Layout Tablet */
+/* Extra: Styling Layout Tablet */
 @media all and (max-width: 1000px) {
-  .top-wrapper h1 {font-size: 32px;}
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
 
-  .heading h2 {font-size: 20px;}
-  
+  .heading h2 {
+    font-size: 20px;
+  }
+
   .lesson {
     width: 50%;
     margin-bottom: 50px;
   }
 }
 
-/* Layout Smartphone */
+/* Extra: Styling Layout Smartphone */
 @media all and (max-width: 670px) {
-  .header-right {display: none;}
-  
-  .menu-icon {display: block;}
-  
-  .btn {width: 100%;}
+  .header-right {
+    display: none;
+  }
 
-  .facebook {margin-bottom: 10px;}
-  
-  .top-wrapper {text-align: left;}
-  
+  .menu-icon {
+    display: block;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
   }
-  
+
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
   }
-  
-  .lesson {width: 100%;}
-  
-  footer {text-align: center;}
+
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
